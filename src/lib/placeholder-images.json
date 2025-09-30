@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "project-banca-march",
+      "description": "A placeholder image for the Banca March project.",
+      "imageUrl": "https://images.unsplash.com/photo-1705588981455-fbc39f4b13dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmaW5hbmNlJTIwYmFua2luZ3xlbnwwfHx8fDE3NTkyNTQ0Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "finance banking"
+    },
+    {
+      "id": "project-telefonica",
+      "description": "A placeholder image for the Telefónica project.",
+      "imageUrl": "https://images.unsplash.com/photo-1697564657464-d86807feb1a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0ZWxlY29tJTIwc2VydmVyfGVufDB8fHx8MTc1OTI1NDQ2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "telecom server"
+    },
+    {
+      "id": "avatar",
+      "description": "A professional portrait of Javier Guardiola.",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTkyNDQ1MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional portrait"
+    }
+  ]
 }
