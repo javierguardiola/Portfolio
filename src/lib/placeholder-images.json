@@ -4,7 +4,7 @@
       "id": "project-banca-march",
       "description": "A placeholder image for the Banca March project.",
       "imageUrl": "https://images.unsplash.com/photo-1705588981455-fbc39f4b13dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmaW5hbmNlJTIwYmFua2luZ3xlbnwwfHx8fDE3NTkyNTQ0Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "finance banking"
+      "imageHint": "banca march"
     },
     {
       "id": "project-telefonica",
@@ -15,7 +15,7 @@
     {
       "id": "avatar",
       "description": "A professional portrait of Javier Guardiola.",
-      "imageUrl": "https://storage.googleapis.com/maker-studio-attachments/v0/user/generated/22d1tXyUoRcg/xs_original.png",
+      "imageUrl": "https://storage.googleapis.com/maker-studio-attachments/v0/user/generated/xhdI4_SgEAEg/xs_original.png",
       "imageHint": "professional portrait"
     }
   ]
