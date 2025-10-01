@@ -36,6 +36,16 @@ export function Header() {
     };
   }, []);
 
+  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>, href: string) => {
+    e.preventDefault();
+    const targetId = href.replace(/.*#/, "");
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <header
       className={cn(
@@ -47,13 +57,14 @@ export function Header() {
         <Logo />
         <nav className="hidden items-center gap-6 md:flex">
           {navLinks.map((link) => (
-            <Link
+            <a
               key={link.name}
               href={link.href}
               className="text-sm font-medium text-foreground/70 transition-colors hover:text-foreground"
+              onClick={(e) => handleLinkClick(e, link.href)}
             >
               {link.name}
-            </Link>
+            </a>
           ))}
         </nav>
         <div className="flex items-center gap-2 md:hidden">
@@ -75,14 +86,14 @@ export function Header() {
                 </div>
                 <nav className="mt-8 flex flex-col gap-6">
                   {navLinks.map((link) => (
-                    <Link
+                    <a
                       key={link.name}
                       href={link.href}
                       className="text-lg font-medium text-foreground/80 transition-colors hover:text-foreground"
-                      onClick={() => setIsMobileMenuOpen(false)}
+                      onClick={(e) => handleLinkClick(e, link.href)}
                     >
                       {link.name}
-                    </Link>
+                    </a>
                   ))}
                 </nav>
               </div>
