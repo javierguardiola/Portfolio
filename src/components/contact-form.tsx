@@ -16,6 +16,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { Mail } from "lucide-react";
+import { sendContactEmail } from "@/app/actions/send-contact-email";
 
 const formSchema = z.object({
   name: z.string().min(2, "El nombre debe tener al menos 2 caracteres."),
@@ -35,13 +36,22 @@ export function ContactForm() {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
-    toast({
-      title: "¡Mensaje enviado!",
-      description: "Gracias por contactar. Te responderé lo antes posible.",
-    });
-    form.reset();
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    const result = await sendContactEmail(values);
+
+    if (result.success) {
+      toast({
+        title: "¡Mensaje enviado!",
+        description: "Gracias por contactar. Te responderé lo antes posible.",
+      });
+      form.reset();
+    } else {
+      toast({
+        variant: "destructive",
+        title: "Error al enviar el mensaje",
+        description: result.message,
+      });
+    }
   }
 
   return (
