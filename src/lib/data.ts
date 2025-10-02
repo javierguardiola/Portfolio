@@ -21,7 +21,6 @@ export const content = {
         description: "Técnico Superior con más de 2 años de experiencia en consultoría tecnológica, especializado en la automatización y optimización de procesos de negocio."
     },
     about: "Soy Javier Guardiola, Técnico Superior en Desarrollo de Aplicaciones Multiplataforma con más de 2 años de experiencia en consultoría tecnológica. Mi carrera profesional se ha desarrollado en EY Technology Consulting, donde he trabajado en proyectos de automatización de procesos (RPA) y gestión de procesos de negocio (BPM) para grandes compañías. Me apasiona la optimización de procesos mediante la tecnología y la implementación de soluciones que aporten eficiencia, escalabilidad y valor al negocio.",
-    cta: "Mi perfil combina experiencia en consultoría, habilidades técnicas en las principales herramientas de RPA y BPM, y un enfoque práctico orientado a resultados. Me adapto con rapidez a nuevas tecnologías y entornos, aportando soluciones escalables y robustas que generan valor para la empresa.",
     contact: {
         title: "¿Quieres hablar sobre un proyecto o colaboración?",
         description: "Escríbeme y estaré encantado de conversar sobre cómo la automatización y la gestión de procesos pueden ayudar a tu organización."
