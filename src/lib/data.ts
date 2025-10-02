@@ -82,9 +82,9 @@ export const testimonials = [
         avatar: "https://picsum.photos/seed/test2/100/100"
     },
     {
-        quote: "La solución de integración low-code que Javier construyó con n8n nos ahorró innumerables horas de trabajo manual. Su capacidad para captar rápidamente nuestras necesidades y ofrecer una solución práctica fue impresionante.",
-        author: "Dueño de Pequeña Empresa",
-        company: "Startup Tecnológica",
+        quote: "Destacaría de Javier su increíble ética de trabajo y su capacidad para adaptarse a los cambios del proyecto sin problemas. Aprende nuevas tecnologías a una velocidad impresionante.",
+        author: "Compañero de equipo",
+        company: "EY",
         avatar: "https://picsum.photos/seed/test3/100/100"
     }
 ];
