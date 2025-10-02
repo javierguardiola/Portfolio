@@ -10,8 +10,8 @@ export const navLinks = [
 ];
 
 export const socialLinks = [
-    { name: "LinkedIn", href: "#", icon: Linkedin },
-    { name: "GitHub", href: "#", icon: Github },
+    { name: "LinkedIn", href: "https://www.linkedin.com/in/javier-guardiola-barco/", icon: Linkedin },
+    { name: "GitHub", href: "https://github.com/javierguardiola", icon: Github },
 ];
 
 export const content = {
